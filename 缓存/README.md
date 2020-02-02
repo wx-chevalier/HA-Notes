@@ -10,7 +10,11 @@
 
 ![缓存知识体系](https://i.postimg.cc/Tw8DdwYZ/image.png)
 
+# 背景分析
+
 ## 功能与分类
+
+![一个可能的组合使用多个组件的数据系统架构](https://s2.ax1x.com/2020/02/02/1YgnII.md.png)
 
 缓存系统的主要功能常常有：
 
