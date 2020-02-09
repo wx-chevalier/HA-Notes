@@ -14,7 +14,7 @@
   <h3 align="center">HA Series</h3>
 
   <p align="center">
-    测试与高可用保障
+    高可用系统设计与实现
     <br />
     <a href="https://github.com/wx-chevalier/HA-Series"><strong>Explore the docs »</strong></a>
     <br />
