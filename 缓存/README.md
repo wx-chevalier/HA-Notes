@@ -43,5 +43,5 @@
 - https://zhuanlan.zhihu.com/p/72671938 Redis 与 Mysql 双写一致性方案解析
 - https://zhuanlan.zhihu.com/p/91770135 如何保障 mysql 和 redis 之间的数据一致性？
 - https://zhuanlan.zhihu.com/p/74880843
-
 - https://www.zhihu.com/question/26190832/answer/825301105 Cache 和 Buffer 都是缓存，主要区别是什么？
+- https://zhuanlan.zhihu.com/p/106101091 如何保障mysql和redis之间的数据一致性？
