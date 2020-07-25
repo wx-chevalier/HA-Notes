@@ -8,28 +8,17 @@
 <br />
 <p align="center">
   <a href="https://github.com/wx-chevalier/HA-Series">
-    <img src="https://s2.ax1x.com/2020/02/02/1YrjA0.png" alt="Logo" width="100" height="100">
+    <img src="header.svg" alt="Logo" style="width: 100vw;height: 400px" />
   </a>
 
-  <h3 align="center">HA Series</h3>
-
   <p align="center">
-    高可用系统设计与实现
-    <br />
-    <a href="https://github.com/wx-chevalier/HA-Series"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
     <a href="https://github.com/wx-chevalier/HA-Series">View Demo</a>
     ·
-    <a href="https://github.com/wx-chevalier/HA-Series/issues">HA-Seriesrt Bug</a>
+    <a href="https://github.com/wx-chevalier/HA-Series/issues">Bug</a>
     ·
     <a href="https://github.com/wx-chevalier/HA-Series/issues">Request Feature</a>
   </p>
 </p>
-
-<!-- ABOUT THE PROJECT -->
-
-# Introduction | 前言
 
 ![高可用题图](https://s2.ax1x.com/2019/11/18/M60zp4.png)
 
