@@ -12,11 +12,11 @@
   </a>
 
   <p align="center">
-    <a href="https://github.com/wx-chevalier/HA-Series">View Demo</a>
+    <a href="https://github.com/wx-chevalier/HA-Series">速览手册</a>
     ·
     <a href="https://github.com/wx-chevalier/HA-Series/issues">Bug</a>
     ·
-    <a href="https://github.com/wx-chevalier/HA-Series/issues">Request Feature</a>
+    <a href="https://github.com/wx-chevalier/HA-Series/issues">参考资料</a>
   </p>
 </p>
 
