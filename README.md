@@ -20,6 +20,8 @@
   </p>
 </p>
 
+# HA Series（高可用架构）
+
 ![高可用题图](https://s2.ax1x.com/2019/11/18/M60zp4.png)
 
 QoS(Quality of Service)，顾名思义，QoS 就是服务质量的缩写。QoS 概念最初源于网络，指一个网络利用各种基础技术，提供更好网络通信服务能力, 是网络的一种安全保障机制，是用来解决网络延迟和阻塞等问题的一种技术。但是，如今 QoS 概念已经被范化，不仅用于网络，也用来标识应用服务、基础技术、资源保障的能力和质量。
@@ -36,9 +38,9 @@ QoS(Quality of Service)，顾名思义，QoS 就是服务质量的缩写。QoS �
 
 > 本书的精排目录导航版请参考 [https://ng-tech.icu/HA-Series](https://ng-tech.icu/HA-Series)。
 
-# Nav | 导读
+## Nav | 导读
 
-- 高可用架构是对于[分布式系统（存储与计算）、微服务、Cloud 与 Kubernetes、Linux 与操作系统、DevOps](https://ng-tech.icu/books/) 等领域的综合运用，建议您先阅读各自领域的系列笔记。
+高可用架构是对于[分布式系统（存储与计算）、微服务、Cloud 与 Kubernetes、Linux 与操作系统、DevOps](https://ng-tech.icu/books/)等领域的综合运用，建议您先阅读各自领域的系列笔记。
 
 # About | 关于
 
