@@ -2,6 +2,8 @@
 
 本章主要着眼于业务模块或者后台模块高并发下的应对策略，
 
+![典型秒杀场景](https://i.postimg.cc/9MgfnSTJ/image.png)
+
 # TBD
 
 - [高并发系统中的常见问题](http://weibo.com/p/1001603862417250608209)
