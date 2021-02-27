@@ -38,7 +38,7 @@ QoS(Quality of Service)，顾名思义，QoS 就是服务质量的缩写。QoS �
 
 > 本书的精排目录导航版请参考 [https://ng-tech.icu/HA-Series](https://ng-tech.icu/HA-Series)。
 
-## Nav | 导读
+## Nav | 导航
 
 高可用架构是对于[分布式系统（存储与计算）、微服务、Cloud 与 Kubernetes、Linux 与操作系统、DevOps](https://ng-tech.icu/books/)等领域的综合运用，建议您先阅读各自领域的系列笔记。
 
