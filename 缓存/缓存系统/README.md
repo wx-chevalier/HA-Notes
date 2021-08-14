@@ -68,6 +68,6 @@ Memcache 存储引擎适用于双机房单集群单份，双机房独立集群�
 
 ![](https://i.postimg.cc/KjNb3bqS/image.png)
 
-对于读热点，在 Data Server 中划分出 Hot Zone，该区域会存储热点数据。Client 初始化时会获取到散列机器配置，然后会随机选取一台 Data Server 作为热点数据读写固定的 Hot Zone。Data Server 会向 Client 反馈的热点数据，当数据被识别为热点时，会先到固定的 Hot Zone 进行读取，获取失败则按原先路由方式到源 Data Server 进行取数，后面再通过异步的方式将数据更新到 Hot Zone，也就是 Hot Zone 和源数据的 Data Server 形成了二级缓存。通过这种方式就可以将热点数据查询压力进行分摊到各个 Hot Zone，水平扩展能力得到提升。
+对于读热点，在 Data Server 中划分出 Hot Zone，该区域会存储热点数据。Client 初始化时会获取到哈希机器配置，然后会随机选取一台 Data Server 作为热点数据读写固定的 Hot Zone。Data Server 会向 Client 反馈的热点数据，当数据被识别为热点时，会先到固定的 Hot Zone 进行读取，获取失败则按原先路由方式到源 Data Server 进行取数，后面再通过异步的方式将数据更新到 Hot Zone，也就是 Hot Zone 和源数据的 Data Server 形成了二级缓存。通过这种方式就可以将热点数据查询压力进行分摊到各个 Hot Zone，水平扩展能力得到提升。
 
 对于写热点，如果使用多级缓存的方式会有数据一致性的问题，写热点是通过在服务端写合并的方式，以减少数据实际写次数。当 Data Server 识别出热点数据后，不会立即进行操作，而是将该数据交给热点线程处理，热点线程会将一定时间内对同一个 key 的操作进行合并，随后由定时线程按照预设的合并周期将合并后的请求提交到引擎层，处理完成后再返回结果给客户端。
