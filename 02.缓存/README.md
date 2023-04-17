@@ -6,7 +6,7 @@
 
 缓存是软件系统中常见的组成部分，其能够提升系统的请求处理与响应能力，避免重复地处理，快速返回常见的数据：
 
-![缓存知识体系](https://i.postimg.cc/Tw8DdwYZ/image.png)
+![缓存知识体系](https://assets.ng-tech.icu/item/20230417213559.png)
 
 # 背景分析
 
