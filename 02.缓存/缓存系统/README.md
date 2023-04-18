@@ -24,7 +24,7 @@ LevelDB 是基于 SSD 硬盘，仅支持 KV 类型数，支持持久化。它适
 
 - Data Server——负责数据存储，按照 Config Server 的指示完成数据复制和迁移工作，并定时给 Config Server 发送心跳信息。
 
-![](https://i.postimg.cc/TPLrJ7V9/image.png)
+![](https://assets.ng-tech.icu/item/20230418155429.png)
 
 # 路由负载均衡
 

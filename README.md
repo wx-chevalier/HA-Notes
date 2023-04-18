@@ -28,7 +28,7 @@ QoS(Quality of Service)，顾名思义，QoS 就是服务质量的缩写。QoS �
 
 高可用架构并非基础架构本身，而是涵盖了多个维度，为了保障最终交付/部署可用性的策略、机制、技术架构的集合。质量保障应该是从团队组织，到开发，测试，发布，运维等全生命周期的工作，而不是某个孤立的技术突破点。
 
-![mindmap](https://i.postimg.cc/zDK3YzGQ/image.png)
+![mindmap](https://assets.ng-tech.icu/item/20230418155710.png)
 
 ## 高并发应对
 
