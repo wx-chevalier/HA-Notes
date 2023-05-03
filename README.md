@@ -7,16 +7,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/wx-chevalier/HA-Series">
+  <a href="https://github.com/wx-chevalier/HA-Notes">
     <img src="https://assets.ng-tech.icu/item/header.svg" alt="Logo" style="width: 100vw;height: 400px" />
   </a>
 
   <p align="center">
-    <a href="https://github.com/wx-chevalier/HA-Series">速览手册</a>
+    <a href="https://github.com/wx-chevalier/HA-Notes">速览手册</a>
     ·
-    <a href="https://github.com/wx-chevalier/HA-Series/issues">Bug</a>
+    <a href="https://github.com/wx-chevalier/HA-Notes/issues">Bug</a>
     ·
-    <a href="https://github.com/wx-chevalier/HA-Series/issues">参考资料</a>
+    <a href="https://github.com/wx-chevalier/HA-Notes/issues">参考资料</a>
   </p>
 </p>
 
@@ -34,9 +34,9 @@ QoS(Quality of Service)，顾名思义，QoS 就是服务质量的缩写。QoS �
 
 高并发系统的典型场景就是电商大促、12306 抢票等，瞬间洪峰超出最大负载，热点商品、票仓挤占正常流量，导致 CPU LOAD 居高不下，请求响应缓慢而损害用户体验。高并发场景下的挑战，首先是继承了我们在并发编程中讨论的挑战点，譬如共享资源的并发访问，计算型密集任务的分布式调度等。
 
-在本篇的高并发应对中，我们核心是关注于单一热点资源的峰值流量的架构与策略，对于分布式计算、调度等相关内容，我们将会在[分布式基础架构](https://ng-tech.icu/books/DistributedSystem-Series/#/)系列中进行详细地讨论。
+在本篇的高并发应对中，我们核心是关注于单一热点资源的峰值流量的架构与策略，对于分布式计算、调度等相关内容，我们将会在[分布式基础架构](https://ng-tech.icu/books/DistributedSystem-Notes/#/)系列中进行详细地讨论。
 
-> 本书的精排目录导航版请参考 [https://ng-tech.icu/books/HA-Series](https://ng-tech.icu/books/HA-Series)。
+> 本书的精排目录导航版请参考 [https://ng-tech.icu/books/HA-Notes](https://ng-tech.icu/books/HA-Notes)。
 
 ## Nav | 导航
 
@@ -73,13 +73,13 @@ Contributions are what make the open source community such an amazing place to b
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/wx-chevalier/HA-Series.svg?style=flat-square
-[contributors-url]: https://github.com/wx-chevalier/HA-Series/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/wx-chevalier/HA-Series.svg?style=flat-square
-[forks-url]: https://github.com/wx-chevalier/HA-Series/network/members
-[stars-shield]: https://img.shields.io/github/stars/wx-chevalier/HA-Series.svg?style=flat-square
-[stars-url]: https://github.com/wx-chevalier/HA-Series/stargazers
-[issues-shield]: https://img.shields.io/github/issues/wx-chevalier/HA-Series.svg?style=flat-square
-[issues-url]: https://github.com/wx-chevalier/HA-Series/issues
-[license-shield]: https://img.shields.io/github/license/wx-chevalier/HA-Series.svg?style=flat-square
-[license-url]: https://github.com/wx-chevalier/HA-Series/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/wx-chevalier/HA-Notes.svg?style=flat-square
+[contributors-url]: https://github.com/wx-chevalier/HA-Notes/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/wx-chevalier/HA-Notes.svg?style=flat-square
+[forks-url]: https://github.com/wx-chevalier/HA-Notes/network/members
+[stars-shield]: https://img.shields.io/github/stars/wx-chevalier/HA-Notes.svg?style=flat-square
+[stars-url]: https://github.com/wx-chevalier/HA-Notes/stargazers
+[issues-shield]: https://img.shields.io/github/issues/wx-chevalier/HA-Notes.svg?style=flat-square
+[issues-url]: https://github.com/wx-chevalier/HA-Notes/issues
+[license-shield]: https://img.shields.io/github/license/wx-chevalier/HA-Notes.svg?style=flat-square
+[license-url]: https://github.com/wx-chevalier/HA-Notes/blob/master/LICENSE.txt

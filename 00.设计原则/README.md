@@ -8,7 +8,7 @@
 
 高可用的挑战
 
-- 不可靠的系统：在《[DistributedSystem-Series](https://github.com/wx-chevalier/DistributedSystem-Series?q=)》中我们详细讨论过不可靠的分布式系统。
+- 不可靠的系统：在《[DistributedSystem-Notes](https://github.com/wx-chevalier/DistributedSystem-Notes?q=)》中我们详细讨论过不可靠的分布式系统。
 - 高并发：
 - 复杂性：
 - 隐蔽性：
