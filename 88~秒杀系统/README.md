@@ -2,7 +2,7 @@
 
 本章主要着眼于业务模块或者后台模块高并发下的应对策略，
 
-![典型秒杀场景](https://assets.ng-tech.icu/item/20230418155625.png)
+![典型秒杀场景](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/20230418155625.png)
 
 # Links
 

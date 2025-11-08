@@ -4,7 +4,7 @@
 
 因此，可观测问题正在悄然成为 IT 行业的热门话题。2016 年，一本名叫《Site Reliability Engineering - How Google Runs Production Systems》出版，谷歌的工程师在书中描绘了故障生命周期的五个阶段：故障预防、故障发现、故障定位、故障恢复、故障改进。而对 IT 系统故障的发现和定位，正是可观测问题的另一种诠释，某种程度上也最接近可观测问题本质的定义。
 
-![可观测定义](https://assets.ng-tech.icu/item/20230302215854.png)
+![可观测定义](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/20230302215854.png)
 
 在此基础上，我们可以将可观测问题大致分为四类：
 
@@ -24,6 +24,6 @@
 
 其中指标告诉我们是否有故障，链路告诉我们故障在哪里，日志则告诉我们故障的原因。
 
-![系统故障的可观测](https://assets.ng-tech.icu/item/20230302220054.png)
+![系统故障的可观测](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/20230302220054.png)
 
 这三类可观测问题加上三种监控类型，共同构成了可观测问题的主要内容。

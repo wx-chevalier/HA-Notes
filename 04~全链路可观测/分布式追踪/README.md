@@ -4,8 +4,8 @@
 
 另一方面，基于 Dapper 论文的思想，国内也有 SkyWalking 开源项目实现了分布式追踪，由于探针的无侵入性，SkyWalking 获得了大量的用户，并且有越来越多的贡献者推动着它的高速迭代。以 Dapper 的定义作为基准，一个标准的分布式 Trace 示例如下图所示。一个 Trace 是由 Span 构成的有向无环图 (DAG)，Span 是一个最小粒度的调用，既可以指代一个程序块执行，也可以指代一次 HTTP 等应用协议的远程调用。
 
-![基于 Span 的调用](https://assets.ng-tech.icu/item/20230303143405.png)
+![基于 Span 的调用](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/20230303143405.png)
 
 目前在做分布式追踪的开源项目很多，接下来挑选几个社区活跃度高，且生产环境使用多的项目对比一下传输协议的差异，大致如下：
 
-![协议解读](https://assets.ng-tech.icu/item/20230303143508.png)
+![协议解读](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/20230303143508.png)

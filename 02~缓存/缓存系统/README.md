@@ -24,7 +24,7 @@ LevelDB 是基于 SSD 硬盘，仅支持 KV 类型数，支持持久化。它适
 
 - Data Server——负责数据存储，按照 Config Server 的指示完成数据复制和迁移工作，并定时给 Config Server 发送心跳信息。
 
-![](https://assets.ng-tech.icu/item/20230418155429.png)
+![](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/20230418155429.png)
 
 # 路由负载均衡
 
@@ -34,7 +34,7 @@ LevelDB 是基于 SSD 硬盘，仅支持 KV 类型数，支持持久化。它适
 
 与直接对 key 进行 hash 的一致性哈希算法不同的是，config server 首先通过 hash 将所有的 key 分到 Q 个 bucket 中，在缓存系统里 bucket 是负载均衡和数据迁移的基本单位，config server 根据一定的策略把每个桶指派到不同的 data server 上，因为数据按照 key 做 hash 算法，保证了桶分布的均衡性，从而保证了数据分布的均衡性，如图所示：
 
-![](https://assets.ng-tech.icu/item/20230418224111.png)
+![](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/20230418224111.png)
 
 # 高可用部署
 
@@ -66,7 +66,7 @@ Memcache 存储引擎适用于双机房单集群单份，双机房独立集群�
 
 我们应该避免热点 key。所谓热点 key，就是个别会被大量访问的 key，由于 key 根据 hash 值落到单台 Data Server 上，因此很容易触发限流。同时还需避免单次批量请求过多的 key。对于热点 Key，应该划出专门的 Hot Zone 来进行存储。各个接收线程单独计数，使用 threadLocal + LRU HashMap，然后由后台统计线程进行汇总计算，从而识别得到热点数据。
 
-![](https://assets.ng-tech.icu/item/20230418224043.png)
+![](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/20230418224043.png)
 
 对于读热点，在 Data Server 中划分出 Hot Zone，该区域会存储热点数据。Client 初始化时会获取到哈希机器配置，然后会随机选取一台 Data Server 作为热点数据读写固定的 Hot Zone。Data Server 会向 Client 反馈的热点数据，当数据被识别为热点时，会先到固定的 Hot Zone 进行读取，获取失败则按原先路由方式到源 Data Server 进行取数，后面再通过异步的方式将数据更新到 Hot Zone，也就是 Hot Zone 和源数据的 Data Server 形成了二级缓存。通过这种方式就可以将热点数据查询压力进行分摊到各个 Hot Zone，水平扩展能力得到提升。
 
