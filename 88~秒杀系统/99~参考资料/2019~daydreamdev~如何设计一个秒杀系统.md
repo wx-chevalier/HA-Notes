@@ -162,7 +162,7 @@ public class RedisLimit {
     private static Integer limit = 5;
 
     /**
-     * Redis 限流
+     - Redis 限流
      */
     public static Boolean limit() {
         Jedis jedis = null;

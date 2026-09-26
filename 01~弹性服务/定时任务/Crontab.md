@@ -32,7 +32,7 @@ $ crontab -u root -e
 ![Crontab 格式说明](http://fs.gimoo.net/img/2014/10/12/011835_5439666b84167.jpg)
 
 ```sh
-*　　  *　　  *　　  *　　  *　　 command
+- 　  *　　  *　　  *　　  *　　 command
 分　   时　   日　   月　   周　   命令
 ```
 
